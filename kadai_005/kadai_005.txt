@@ -1,0 +1,6 @@
+PS C:\samurai_kadai\git_challenge> git commit -m "Hello, world!"
+[main 3e02556] Hello, world!
+ 1 file changed, 1 insertion(+)
+PS C:\samurai_kadai\git_challenge> git commit -m "こんにちは、世界！"
+[main 0416ba8] こんにちは、世界！
+ 1 file changed, 2 insertions(+), 1 deletion(-)
