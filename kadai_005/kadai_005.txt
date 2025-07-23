@@ -1,6 +1,19 @@
-PS C:\samurai_kadai\git_challenge> git commit -m "Hello, world!"
-[main 3e02556] Hello, world!
- 1 file changed, 1 insertion(+)
-PS C:\samurai_kadai\git_challenge> git commit -m "こんにちは、世界！"
-[main 0416ba8] こんにちは、世界！
- 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\samurai_kadai> cd git_challenge   
+PS C:\samurai_kadai\git_challenge> git init
+Initialized empty Git repository in C:/samurai_kadai/git_challenge/.git/
+PS C:\samurai_kadai\git_challenge> git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+PS C:\samurai_kadai\git_challenge> git commit -m "1回目のコミット"
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS C:\samurai_kadai\git_challenge> git commit -m "2回目のコミット" 
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+PS C:\samurai_kadai\git_challenge> git log --oneline
+fatal: your current branch 'main' does not have any commits yet
