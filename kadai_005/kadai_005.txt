@@ -24,16 +24,15 @@ Mode                 LastWriteTime         Length Name
 
 
 PS C:\samurai_kadai\git_challenge> echo "文字列" > ファイル名
-PS C:\samurai_kadai\git_challenge> echo "Hello, world!" > hello_world.txt
-PS C:\samurai_kadai\git_challenge> git add hello_world.txt       
-PS C:\samurai_kadai\git_challenge> git commit -m "一回目のコミット"              
-[main (root-commit) 165b323] 一回目のコミット
+PS C:\samurai_kadai\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\samurai_kadai\git_challenge> git add hello_world.txt
+PS C:\samurai_kadai\git_challenge> git commit -m "一回目のコミット"
+[main 157a007] 一回目のコミット
  1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 hello_world.txt
-PS C:\samurai_kadai\git_challenge> echo "こんにちは、世界！" > hello_world.txt
+PS C:\samurai_kadai\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
 PS C:\samurai_kadai\git_challenge> git add hello_world.txt
 PS C:\samurai_kadai\git_challenge> git commit -m "二回目のコミット"
-[main 3db90f5] 二回目のコミット
+[main 264fa28] 二回目のコミット
  1 file changed, 0 insertions(+), 0 deletions(-)
 PS C:\samurai_kadai\git_challenge> git log --oneline
 3db90f5 (HEAD -> main) 二回目のコミット
