@@ -15,11 +15,11 @@ Mode                 LastWriteTime         Length Name
 PS C:\samurai_kadai\git_challenge> git add hello_world.txt
 
 PS C:\samurai_kadai\git_challenge> git commit -m "一回目のコミット"              
-[main (root-commit) 380a44d] 一回目のコミット
+[main (root-commit) 380a44d] 一回目のコミット＃Hello, world!をコミットする
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
 PS C:\samurai_kadai\git_challenge> git add hello_world.txt
-PS C:\samurai_kadai\git_challenge> git commit -m "二回目のコミット"
+PS C:\samurai_kadai\git_challenge> git commit -m "二回目のコミット"＃こんにちは、世界！をコミットする
 [main f6adb56] 二回目のコミット
  1 file changed, 2 insertions(+), 1 deletion(-)
 PS C:\samurai_kadai\git_challenge> git log --oneline
