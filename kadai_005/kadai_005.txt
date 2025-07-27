@@ -6,34 +6,23 @@ PS C:\samurai_kadai> mkdir git_challenge
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
-d-----        2025/07/27     16:44                git_challenge
+d-----        2025/07/27     17:19                git_challenge
 
 
 PS C:\samurai_kadai> cd git_challenge   
 PS C:\samurai_kadai\git_challenge> git init
 Initialized empty Git repository in C:/samurai_kadai/git_challenge/.git/
-PS C:\samurai_kadai\git_challenge> New-Item -Path "hello_world.txt" -ItemType File             
-
-
-    ディレクトリ: C:\samurai_kadai\git_challenge
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
--a----        2025/07/27     16:44              0 hello_world.txt
-
-
-PS C:\samurai_kadai\git_challenge> echo "文字列" > ファイル名
-PS C:\samurai_kadai\git_challenge> echo "Hello, world!" >> hello_world.txt
+#テキストファイルに"Hello, world!"を追記
 PS C:\samurai_kadai\git_challenge> git add hello_world.txt
 PS C:\samurai_kadai\git_challenge> git commit -m "一回目のコミット"
-[main 157a007] 一回目のコミット
- 1 file changed, 0 insertions(+), 0 deletions(-)
-PS C:\samurai_kadai\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+[main (root-commit) 13c48ad] 一回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+#テキストファイルに"こんにちは、世界！"を追記
 PS C:\samurai_kadai\git_challenge> git add hello_world.txt
 PS C:\samurai_kadai\git_challenge> git commit -m "二回目のコミット"
-[main 264fa28] 二回目のコミット
- 1 file changed, 0 insertions(+), 0 deletions(-)
+[main 43f5e13] 二回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
 PS C:\samurai_kadai\git_challenge> git log --oneline
-3db90f5 (HEAD -> main) 二回目のコミット
-165b323 一回目のコミット
+43f5e13 (HEAD -> main) 二回目のコミット
+13c48ad 一回目のコミット
